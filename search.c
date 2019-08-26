@@ -32,7 +32,7 @@ void binaryl(int a[],int n,int b)
 	int l,u,m;
 	l=0;
 	u=n;
-	while(l<u)
+	while(l<=u)
 	{
 		m=(l+u)/2;
 		if(b==a[m])
@@ -55,7 +55,7 @@ void binaryl(int a[],int n,int b)
 void binaryr(int a[],int l,int u,int b)
 {
 	int m;	
-	if(l>=u) 
+	if(l>u) 
 		printf(" Element not found ");
 	else
 	{
